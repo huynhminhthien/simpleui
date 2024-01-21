@@ -14,22 +14,15 @@
 #content {
   padding: 0;
 }
-#content-main .page-header {
-  margin-top: 0;
-  margin-bottom: 20px;
-  background-color: white;
-  padding: 20px;
-}
 #content-main .module {
-  margin: 20px;
   margin-bottom: 0;
-  padding: 10px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 5px;
 }
-#content-main .submit-row {
-  margin: 20px;
-  margin-top: 0;
-  background-color: white!important;
+#content-main .aligned {
+  margin: 10px 0px;
+}
+#content-main .submit-row,
+#content-main .page-header {
   padding: 10px;
 }
 .simpleui-form-item {
@@ -66,6 +59,7 @@
   margin-bottom: 0px !important;
 }
 .form-main {
+  padding: 20px;
   float: none !important;
   width: auto !important;
 }
@@ -208,7 +202,7 @@ body,
   right: 0px;
 }
 .inline-group .tabular td.original p {
-  margin-top: -42px !important;
+  margin-top: -33px !important;
 }
 :root {
   --error-fg: red!important;
@@ -246,4 +240,3 @@ body,
     --close-button-hover-bg: inherit;
   }
 }
-/*# sourceMappingURL=base.css.map */
