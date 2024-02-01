@@ -42,6 +42,7 @@
 #pagination {
   text-align: center;
   margin-top: 10px;
+  padding-bottom: 10px;
 }
 .actions .el-button {
   margin-right: 10px;
@@ -51,9 +52,6 @@
   padding: 0px;
   margin: 20px;
   background-color: white;
-}
-#content #changelist-form {
-  padding: 0px 20px;
 }
 #changelist #toolbar {
   margin-bottom: 0px !important;
@@ -138,6 +136,10 @@ body,
 #container {
   background-color: #f1f4f6 !important;
 }
+body #content #changelist-form,
+#container #content #changelist-form {
+  overflow: clip;
+}
 @media (max-width: 767px) {
   .change-list #content {
     margin: 0px;
@@ -199,7 +201,7 @@ body,
 }
 #changelist .actions .btn-group {
   position: absolute;
-  right: 0px;
+  right: 20px;
 }
 .inline-group .tabular td.original p {
   margin-top: -33px !important;
